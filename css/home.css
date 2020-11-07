@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+.color-block{
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+    background-color: #ffb400;
+}
+.home_details_container{
+    width: 100%;
+    height: 100vh;
+}
+
+.home_details_container_bg{
+    background-image: url('/assets/WhatsApp Image 2020-11-07 at 11.21.08 PM.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: calc(100vh - 60px);
+    z-index: 111;
+    border-radius: 15px;
+    left: 30px;
+    top: 30px;
+    box-shadow: 0 0 7px rgba(0,0,0,.9);
+}
+
+.home_details {
+    padding-left: 190px;
+    padding-right: 130px;
+}
+.home_details h6 {
+    color: #eee;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.home_details h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    color: #ffb400;
+}
+
+.home_details h1 span {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_details p {
+    margin: 10px 0 23px;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_details .btn {
+    box-shadow: none !important;
+    border-radius: 26px;
+    font-weight: bold;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 40px;
+    outline: none !important;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    border: 0;
+    background-color:#ffb400;
+}
+
+.header .icon-menu {
+    position: fixed;
+    top: 132px;
+    right: 50px;
+}
+.header .icon-menu .icon-box {
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    background: #2b2a2a;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.header .icon-menu .active{
+    background: #ffb400;
+    color: #fff;
+}
